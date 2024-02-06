@@ -11,19 +11,6 @@
     <link rel="stylesheet" type="text/css" href="./style css.css">
     
     <title>CV Heinze Tom</title>
-    <style>
-      /* Ajout du style pour la section de changement de langue */
-      #lang-selector {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-      }
-      #lang {
-        font-size: 14px;
-        padding: 8px;
-        border-radius: 4px;
-      }
-    </style>
 </head>
 <!--=====PRIVACY BANNER=====-->
 <script>
@@ -267,16 +254,8 @@
                     </div>
                 </section>
                 
-                <!-- Changement de langue -->
-                <div id="lang-selector">
-                    <label for="lang">Language :</label>
-                    <select id="lang">
-                        <option value="fr">French</option>
-                        <option value="en">English</option>
-                    </select>
-                </div>
-            </div>
-        </div>
+                <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+        
     </main>
     <!--=====SCROLL TOP=====-->
     <a href="#" class="scrolltop" id="scroll-top">
@@ -286,20 +265,5 @@
     <script src="./style java.js"></script>         
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script>
-      document.getElementById('lang').addEventListener('change', function() {
-        var lang = this.value;
-        if (lang === 'fr') {
-          // Changer le contenu français
-          // Par exemple, changer "Language" en "Langue"
-          document.querySelector('label[for="lang"]').textContent = "Langue :";
-        } else if (lang === 'en') {
-          // Changer le contenu anglais
-          // Par exemple, changer "Langue" en "Language"
-          document.querySelector('label[for="lang"]').textContent = "Language :";
-        }
-      });
-    </script>
 </body>
 </html>
