@@ -73,7 +73,6 @@ function generateResume() {
 }
 //When the button is clicked, it executes the three function
 resumeButton.addEventListener("click", () => {
-
   //1. Th scaleCv(): void is added to the body, where it reduces the size of the
   scalCv();
 
