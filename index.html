@@ -3,14 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- PRINT -->
+
     <!--=====BOX ICONS=====-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
      <!--====== ICON TASKBAR ======-->
     <link rel="SHORTCUT ICON" type="image/x-icon" href="favicon.ico" /> 
     <!--=====CSS=====-->
-    <link rel="stylesheet" type="text/css" href="./style css.css">
-    
-    <title>CV Heinze Tom</title>
+    <link rel="stylesheet" type="text/css" href="./style css.css" media="screen">
+        <!-- ANIMATION -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <title>CV Heinze Tom</title>
 </head>
 <!--=====PRIVACY BANNER=====-->
 <script>
@@ -36,9 +39,11 @@
                             <div class="home__img__container">
                                 <img src="photo-cv.svg" alt="Profile Photo - Tom Heinze" class="home__img">
                             </div>
+                            <!-- AOS ANIAMTION -->
+                            <div data-aos="fade-up">
                             <h1 class="home__title">HEINZE&nbsp;TOM</h1>
                             <h3 class="home__profession">High school student in RISC (Computer networks and communicating systems option)</h3>
-                        </div>
+                        </div></div>
 
                      <!--=====BUTTON TO GENERATE AND DOWNLOAD THE PDF. AVAILABLE FOR DESKTOP=====-->
                      <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
@@ -46,8 +51,9 @@
                         <div><a class="langue-button" href="https://kahico.github.io/"><div class="animated-text"><span></span></div></a>
                 
                      <!--=====SOCIAL=====-->
-                        
                         <section class="social section">
+                            <!-- AOS ANIAMTION -->
+                            <div data-aos="fade-up">
                             <h2 class="section-title">SOCIAL</h2>
                             <div class="QR__code">
                                 <img src="QR-Code-Tom.svg" alt="" class="home__img">
@@ -83,12 +89,17 @@
                     <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
                 </section>
                     <!--====== PROFILE ======-->
+                    <!-- AOS ANIAMTION -->
+                    <div data-aos="fade-up">
                 <section class="profile section" id="profile">
                     <h2 class="section-title">Profile</h2>
                     <p class="profile__description">Student in 1st professional RISC. I am looking for an internship to improve my skills. Passionate and rigorous, I am ready to put my enthusiasm at the service of your company.</p>
+                </div>
                 </section>
                 <!--====== LANGUAGES ======-->
                 <section class="languages section">
+                    <!-- AOS ANIAMTION -->
+                    <div data-aos="fade-up">
                     <h2 class="section-title">Language</h2>
                     <div class="languages__container">
                         <ul class="languages__content bd-grid">
@@ -103,6 +114,8 @@
                 </section>
                 <!--====== SKILLS ======-->
                 <section class="skill section" id="skills"></section>
+                <!-- AOS ANIAMTION -->
+                <div data-aos="fade-up">
                 <h2 class="section-title">Skills</h2>
                 <div class="skills__content bd-grid">
                     <ul class="skills__data">
@@ -137,12 +150,13 @@
                     </ul>
                 </div>
             </div>
-            
+            </div>
             <div class="resume__right">
 
 
                 <!--====== EXPERIENCE ======-->
-                
+                <!-- AOS ANIAMTION -->
+                <div data-aos="fade-up">
                 <section class="experience section" id="experience">
                     <h2 class="section-title">Experience</h2>
                     
@@ -193,9 +207,11 @@
                     </div>
                 </section>
 
-                <!--====== CERTIFICATES/DIPLOMA ======-->
+                <!--====== DIPLOMA ======-->
                 <section class="education section" id="education">
-                    <h2 class="section-title">Diploma/Certification</h2>
+                    <!-- AOS ANIAMTION -->
+                    <div data-aos="fade-up">
+                    <h2 class="section-title">Education</h2>
                     
                     <div class="education__container bd-grid">
                         <div class="education__content">
@@ -220,44 +236,43 @@
                                 <span class="education__year">2021 - 2022 </span>
                             </div>
                         </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Cisco (Introduction to Cybersecurity)</h3>
-                                <span class="education__studies">Lycée Charles Tellier</span>
-                                <span class="education__year">2023 - 2024 </span>
-                            </div>
-                        </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">SST (Rescuer of Work)</h3>
-                                <span class="education__studies">Lycée Charles Tellier</span>
-                                <span class="education__year">2023 - 2024</span>
-                            </div>
-                        </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Certification PIX</h3>
-                                <span class="education__studies">Collège Dunois</span>
-                                <span class="education__year">2021 - 2022 </span>
-                            </div>
-                        </div>
                         <span class="education__rounder"></span>
                 </section>
+
+                <!-- CERTIFICATES -->
+                <section class="certificate section" id="certificates">
+                    <div data-aos="fade-up">
+                    <h2 class="section-title">Certificates</h2>
+                    <div class="certificate__container bd-grid">
+                        <div class="certifivate__content">
+                            <h3 class="certificate__title">Cisco (Introduction to Cybersecurity)</h3>
+                        </div>
+
+                        <div class="certifivate__content">
+                            <h3 class="certificate__title">SST (Rescuer of Work)</h3>
+                        </div>
+
+                        <div class="certifivate__content">
+                            <h3 class="certificate__title">Certification PIX</h3>
+                        </div>
+                    </div>
+                </div>
+                </section>
+
+
+
+
+
+
                 <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
         
     </main>
+    <!-- AOS ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!--=====SCROLL TOP=====-->
     <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
