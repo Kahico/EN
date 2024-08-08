@@ -59,13 +59,12 @@ body.scale-cv {
   --h1-font-size: 0.938rem;
   --h2-font-size: 0.938rem;
   --h3-font-size: 0.875rem;
-  --normal-font-size: 0.803rem;
+  --normal-font-size: 0.813rem;
   --small-font-size: 0.75rem;
   --smaller-font-size: 0.688rem;
 }
 /*====== GENERATE PDF BUTTON ======*/
 .generate-pdf {
-  /*dipslay: none: */
   position: absolute;
   top: 2.2rem;
   left: 0;
@@ -533,7 +532,7 @@ footer {
 
 .animated-text span::before {
   content: "Youtuber";
-  color: #ff7f50;
+  color: white;
   animation: words 20s infinite;
 }
 
@@ -543,7 +542,7 @@ footer {
   width: calc(100% + 8px);
   height: 100%;
   background-color: #2f3542;
-  border-left: 2px solid #ff7f50;
+  border-left: 2px solid black;
   right: -8px;
   animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
 }
@@ -557,23 +556,23 @@ footer {
 @keyframes words {
   0%,
   20% {
-    content: "Français";
+    content: "English";
   }
   21%,
   40% {
-    content: "French";
+    content: "Anglais";
   }
   41%,
   60% {
-    content: "Français";
+    content: "English";
   }
   61%,
   80% {
-    content: "French";
+    content: "Anglais";
   }
   81%,
   100% {
-    content: "Français";
+    content: "English";
   }
 }
 
